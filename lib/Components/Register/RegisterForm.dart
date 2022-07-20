@@ -54,6 +54,15 @@ class _SignUpForm extends State<SignUpform> {
           SizedBox(
             height: 20,
           ),
+          GestureDetector(
+            onTap: (){
+              Navigator.pushNamed(context, RegisterScreen.routeName);
+            },
+            child: Text(
+              "Sudah Punya Akun? Klik Disini",
+              style : TextStyle(decoration: TextDecoration.underline),
+            ),
+          )
         ],
       ),
     );

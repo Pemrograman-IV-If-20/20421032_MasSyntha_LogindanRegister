@@ -32,8 +32,8 @@ class _LoginComponent extends State<LoginComponent> {
                 ),
                 SimpleShadow(
                   child: Image.asset(
-                    "assets/image/spanish-guitar.png", 
-                    height: 150, 
+                    "assets/image/spanish-guitar.png",
+                    height: 150,
                     width: 202,
                     ),
                     opacity: 0.5,
